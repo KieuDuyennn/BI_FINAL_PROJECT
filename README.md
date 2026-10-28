@@ -47,6 +47,7 @@ See diagrams in: [`docs/diagrams/`](docs/diagrams/)
 - `docs/report/`: report assets and notes
 - `dashboards/`: Power BI usage notes
 - `sql/meta/`: metadata and control DDL
+- `sql/stage/`: raw Stage table DDL
 - `data/`: local-only data and DuckDB file (ignored by git)
 
 ## Setup (One Time)
@@ -60,14 +61,16 @@ See diagrams in: [`docs/diagrams/`](docs/diagrams/)
 7. Copy `dbt_project/profiles.example.yml` to `~/.dbt/profiles.yml`.
 
 ## Run order
-1. `download_from_kaggle`
-2. `load_stage`
-3. `dbt_build_firewall`
-4. `dbt_build_dds`
-5. `dbt_test`
-6. `reconcile`
-7. `export_dds`
-8. `write_audit`
+1. Run `sql/meta/*.sql` to create metadata and control schemas/tables.
+2. Run `sql/stage/*.sql` to create raw Stage tables before ingestion.
+3. `download_from_kaggle`
+4. `load_stage`
+5. `dbt_build_firewall`
+6. `dbt_build_dds`
+7. `dbt_test`
+8. `reconcile`
+9. `export_dds`
+10. `write_audit`
 
 Run these blocks in Mage.ai, or call the corresponding skeleton scripts manually.
 

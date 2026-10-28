@@ -1,7 +1,4 @@
-CREATE TABLE IF NOT EXISTS meta.dq_rule (
-    rule_key VARCHAR, rule_name VARCHAR, rule_description VARCHAR, rule_type VARCHAR,
-    rule_category VARCHAR, risk_level INTEGER, action VARCHAR, status VARCHAR
-);
+-- meta.dq_rule is created by dbt seed from dbt_project/seeds/dq_rule.csv
 CREATE TABLE IF NOT EXISTS meta.dq_notification (
     notification_key INTEGER, rule_key VARCHAR, notification_time TIMESTAMP, message VARCHAR
 );
