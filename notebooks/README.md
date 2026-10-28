@@ -1,7 +1,7 @@
 # Notebooks (Kaggle)
 
 Planned notebooks:
-- `01_data_profiling` (Kaggle profiling notebook)
+- `01_data_profiling` (run on Kaggle, outputs saved in /kaggle/working/profiling)
 - `02_anomaly_analysis`
 - `03_advanced_analysis`
 
