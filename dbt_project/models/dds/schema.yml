@@ -1,0 +1,87 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: "<TODO>"
+    columns:
+      - name: date_key
+        description: "<TODO>"
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_time
+    description: "<TODO>"
+    columns:
+      - name: time_key
+        description: "<TODO>"
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_zone
+    description: "<TODO>"
+    columns:
+      - name: zone_key
+        description: "<TODO>"
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_vendor
+    description: "<TODO>"
+    columns:
+      - name: vendor_key
+        description: "<TODO>"
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_payment_type
+    description: "<TODO>"
+    columns:
+      - name: payment_type_key
+        description: "<TODO>"
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_rate_code
+    description: "<TODO>"
+    columns:
+      - name: rate_code_key
+        description: "<TODO>"
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_trip
+    description: "<TODO>"
+    columns:
+      - name: trip_id
+        description: "<TODO>"
+        tests:
+          - not_null
+          - unique
+      - name: date_key
+        description: "<TODO>"
+        tests:
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
+      - name: vendor_key
+        description: "<TODO>"
+        tests:
+          - relationships:
+              to: ref('dim_vendor')
+              field: vendor_key
+      - name: payment_type_key
+        description: "<TODO>"
+        tests:
+          - relationships:
+              to: ref('dim_payment_type')
+              field: payment_type_key
+      - name: trip_distance
+        description: "<TODO>"
+        tests:
+          - not_null
