@@ -16,9 +16,12 @@ clean-targets:
 
 models:
   nyc_taxi_dw:
-    staging:
-      +schema: staging
+    firewall:
+      +schema: dq
       +materialized: view
+    dq:
+      +schema: dq
+      +materialized: table
     dds:
       +schema: dds
       +materialized: table

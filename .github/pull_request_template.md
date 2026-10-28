@@ -1,21 +1,21 @@
 ## What changed
-- <TODO>
+
+<!-- Describe the change in concise terms. -->
 
 ## Area
-- [ ] profiling
-- [ ] dds
-- [ ] ingestion
-- [ ] dbt
-- [ ] mage
-- [ ] tests
-- [ ] dashboard
-- [ ] advanced
-- [ ] docs
 
-## How I tested
-Paste `dbt build` output (or relevant output) here.
+<!-- profiling / requirements / dds / ingestion / firewall / meta / mage / tests / olap / dashboard / docs -->
+
+## How tested
+
+```text
+dbt build:
+reconcile:
+```
 
 ## Checklist
-- [ ] I did not commit data files or `.duckdb` files.
-- [ ] I did not commit secrets or tokens.
-- [ ] I updated `README.md` if needed.
+
+- [ ] No data, DuckDB, PBIX, credentials, or tokens were committed.
+- [ ] Relevant tests and reconciliation were run.
+- [ ] Documentation was updated where needed.
+- [ ] At least one reviewer will review this PR.

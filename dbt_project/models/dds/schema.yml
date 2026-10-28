@@ -85,3 +85,18 @@ models:
         description: "<TODO>"
         tests:
           - not_null
+      - name: pickup_zone_key
+        tests:
+          - relationships:
+              to: ref('dim_zone')
+              field: zone_key
+      - name: dropoff_zone_key
+        tests:
+          - relationships:
+              to: ref('dim_zone')
+              field: zone_key
+      - name: rate_code_key
+        tests:
+          - relationships:
+              to: ref('dim_rate_code')
+              field: rate_code_key
