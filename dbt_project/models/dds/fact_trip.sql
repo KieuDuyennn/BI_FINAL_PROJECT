@@ -1,10 +1,13 @@
 {{ config(materialized='table', schema='dds') }}
 
 -- Grain: one row per valid taxi trip. TODO: delete + insert each load_month increment.
+-- dim_date and dim_time are role-playing for pickup and dropoff.
 select
     cast(null as varchar) as trip_id,
-    cast(null as integer) as date_key,
-    cast(null as integer) as time_key,
+    cast(null as integer) as pickup_date_key,
+    cast(null as integer) as pickup_time_key,
+    cast(null as integer) as dropoff_date_key,
+    cast(null as integer) as dropoff_time_key,
     cast(null as integer) as pickup_zone_key,
     cast(null as integer) as dropoff_zone_key,
     cast(null as integer) as vendor_key,
