@@ -1,0 +1,35 @@
+# Local data and warehouse artifacts
+data/
+*.parquet
+*.zip
+*.shp
+*.shx
+*.dbf
+*.prj
+*.duckdb
+*.duckdb.wal
+
+# BI/dashboard artifacts
+*.pbix
+
+# Environment and credentials
+.env
+kaggle.json
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.log
+.DS_Store
+
+# dbt build artifacts
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/
+
+# Mage artifacts
+mage_pipeline/.file_versions/
+
+# Ignore csv by default, except documentation and dbt seeds
+*.csv
+!dbt_project/seeds/**/*.csv
+!docs/**/*.csv
