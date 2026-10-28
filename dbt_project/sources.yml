@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stage
+    schema: stage
+    tables:
+      - name: trip
+      - name: taxi_zone_lookup

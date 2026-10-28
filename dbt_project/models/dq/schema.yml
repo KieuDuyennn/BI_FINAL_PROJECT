@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: trip_rejected
+    description: "Rows rejected by the data firewall; not loaded into DDS."
