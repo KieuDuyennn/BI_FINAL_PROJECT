@@ -26,7 +26,14 @@ This project uses the shared private Kaggle dataset:
 > Data files are **not stored in GitHub**. Each member downloads data locally.
 
 ## Architecture
-Kaggle -> `data/raw` -> DuckDB `raw` -> `staging` -> `dds` (star schema), orchestrated by Mage.ai, then exported to Parquet for Power BI.
+This project follows the **Single DDS** architecture:
+
+`Source > Stage > data firewall + DQ database > DDS`
+
+Supporting components are **Metadata** and **Control + Audit**. The implementation uses
+**ELT**: extract and load into Stage inside DuckDB, then transform inside the warehouse
+with dbt. Stage preserves source structure with audit columns; dbt applies the firewall,
+loads the star-schema DDS, and runs tests.
 
 See diagrams in: [`docs/diagrams/`](docs/diagrams/)
 
@@ -40,6 +47,8 @@ See diagrams in: [`docs/diagrams/`](docs/diagrams/)
 - `docs/diagrams/`: architecture and design diagrams
 - `docs/report/`: report assets and notes
 - `dashboards/`: Power BI usage notes
+- `sql/meta/`: metadata and control DDL
+- `sql/stage/`: raw Stage table DDL
 - `data/`: local-only data and DuckDB file (ignored by git)
 
 ## Setup (One Time)
@@ -52,15 +61,19 @@ See diagrams in: [`docs/diagrams/`](docs/diagrams/)
 6. Copy `.env.example` to `.env` and adjust values if needed.
 7. Copy `dbt_project/profiles.example.yml` to `~/.dbt/profiles.yml`.
 
-## Run
-Use one of the following:
+## Run order
+1. Run `sql/meta/*.sql` to create metadata and control schemas/tables.
+2. Run `sql/stage/*.sql` to create raw Stage tables before ingestion.
+3. `download_from_kaggle`
+4. `load_stage`
+5. `dbt_build_firewall`
+6. `dbt_build_dds`
+7. `dbt_test`
+8. `reconcile`
+9. `export_dds`
+10. `write_audit`
 
-- **Option A (recommended):** Run the Mage pipeline blocks in order.
-- **Option B (manual):**
-  1. `python ingestion/download_from_kaggle.py`
-  2. `python ingestion/load_raw.py`
-  3. `dbt build`
-  4. `python ingestion/export_dds.py`
+Run these blocks in Mage.ai, or call the corresponding skeleton scripts manually.
 
 ## Team Workflow
 - Notebooks are developed on Kaggle and exported to `notebooks/`.

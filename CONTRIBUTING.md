@@ -1,8 +1,8 @@
 # Contributing Guidelines
 
 ## Branching
-- Branch format: `feature/<area>-<short-name>`
-- Allowed `<area>` values: `profiling`, `dds`, `ingestion`, `dbt`, `mage`, `tests`, `dashboard`, `advanced`, `docs`
+- Branch format: `feature/<area>-<name>`
+- Allowed `<area>` values: `profiling`, `requirements`, `dds`, `ingestion`, `firewall`, `meta`, `mage`, `tests`, `olap`, `dashboard`, `docs`
 - Always `git pull` before starting new work.
 - Never commit directly to `main`.
 

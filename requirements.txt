@@ -8,3 +8,13 @@ python-dotenv
 pytest
 geopandas
 matplotlib
+kaggle
+duckdb
+pandas
+pyarrow
+dbt-duckdb
+mage-ai
+python-dotenv
+pytest
+geopandas
+matplotlib

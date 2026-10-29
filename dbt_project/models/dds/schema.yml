@@ -63,25 +63,67 @@ models:
         tests:
           - not_null
           - unique
-      - name: date_key
+      - name: pickup_date_key
         description: "<TODO>"
         tests:
           - relationships:
-              to: ref('dim_date')
-              field: date_key
+              arguments:
+                to: ref('dim_date')
+                field: date_key
+      - name: pickup_time_key
+        description: "<TODO>"
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_time')
+                field: time_key
+      - name: dropoff_date_key
+        description: "<TODO>"
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_key
+      - name: dropoff_time_key
+        description: "<TODO>"
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_time')
+                field: time_key
       - name: vendor_key
         description: "<TODO>"
         tests:
           - relationships:
-              to: ref('dim_vendor')
-              field: vendor_key
+              arguments:
+                to: ref('dim_vendor')
+                field: vendor_key
       - name: payment_type_key
         description: "<TODO>"
         tests:
           - relationships:
-              to: ref('dim_payment_type')
-              field: payment_type_key
+              arguments:
+                to: ref('dim_payment_type')
+                field: payment_type_key
       - name: trip_distance
         description: "<TODO>"
         tests:
           - not_null
+      - name: pickup_zone_key
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_zone')
+                field: zone_key
+      - name: dropoff_zone_key
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_zone')
+                field: zone_key
+      - name: rate_code_key
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_rate_code')
+                field: rate_code_key

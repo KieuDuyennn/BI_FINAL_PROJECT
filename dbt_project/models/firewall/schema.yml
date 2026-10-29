@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: int_trip_validated
+    description: "Stage rows with one validation flag per active rule. TODO: replace placeholder."

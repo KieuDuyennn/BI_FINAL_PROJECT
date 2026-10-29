@@ -14,11 +14,18 @@ clean-targets:
   - "target"
   - "dbt_packages"
 
+seeds:
+  nyc_taxi_dw:
+    +schema: meta
+
 models:
   nyc_taxi_dw:
-    staging:
-      +schema: staging
+    firewall:
+      +schema: dq
       +materialized: view
+    dq:
+      +schema: dq
+      +materialized: table
     dds:
       +schema: dds
       +materialized: table
