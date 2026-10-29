@@ -1,0 +1,3 @@
+check,duplicate_trips,pct
+Exact duplicate rows (all columns),5,0.0
+"Duplicate natural key (vendor, pickup, dropoff, PU, DO)",1272454,1.4155

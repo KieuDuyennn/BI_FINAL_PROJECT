@@ -1,0 +1,5 @@
+column,dtype,distinct,empty_or_NA,example
+LocationID,int64,265,0,1
+Borough,object,8,2,EWR
+Zone,object,262,1,Newark Airport
+service_zone,object,5,2,EWR

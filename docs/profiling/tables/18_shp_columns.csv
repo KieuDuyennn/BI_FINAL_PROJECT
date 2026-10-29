@@ -1,0 +1,8 @@
+column,dtype,nulls,distinct
+OBJECTID,int32,0,263
+Shape_Leng,float64,0,263
+Shape_Area,float64,0,263
+zone,object,0,260
+LocationID,int32,0,263
+borough,object,0,6
+geometry,geometry,0,263

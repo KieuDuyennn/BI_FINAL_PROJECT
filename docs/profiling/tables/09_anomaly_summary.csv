@@ -1,0 +1,41 @@
+code,category,rule,trips,pct
+T01,Time,Pickup month differs from source file month,634,0.0007
+T02,Time,Pickup year outside 2024-2025,59,0.0001
+T03,Time,Dropoff before pickup,3810,0.0042
+T04,Time,Dropoff equals pickup (0 s),556004,0.6185
+T05,Time,Duration under 1 minute (>0 s),1033050,1.1492
+T06,Time,Duration over 3 hours,43750,0.0487
+T07,Time,Duration over 24 hours,582,0.0006
+D01,Distance,trip_distance = 0,2179263,2.4243
+D02,Distance,trip_distance < 0,0,0.0
+D03,Distance,trip_distance > 100 miles,4483,0.005
+D04,Distance,Average speed > 80 mph,26945,0.03
+D05,Distance,Distance > 0 but same PU/DO zone and duration 0,24751,0.0275
+P01,Passenger,passenger_count is NULL,15703126,17.4688
+P02,Passenger,passenger_count = 0,661416,0.7358
+P03,Passenger,passenger_count > 6,430,0.0005
+C01,Code,"VendorID not in dictionary {1,2,6,7}",0,0.0
+C02,Code,RatecodeID is NULL,15703126,17.4688
+C03,Code,RatecodeID = 99 (unknown),1271371,1.4143
+C04,Code,"RatecodeID not in dictionary {1..6,99}",0,0.0
+C05,Code,payment_type = 0 (Flex Fare / missing),15703126,17.4688
+C06,Code,payment_type not in dictionary {0..6},0,0.0
+C07,Code,store_and_fwd_flag is NULL,15703126,17.4688
+L01,Location,PULocationID not in zone lookup,0,0.0
+L02,Location,DOLocationID not in zone lookup,0,0.0
+L03,Location,"PULocationID is Unknown/Outside NYC (264, 265)",249244,0.2773
+L04,Location,"DOLocationID is Unknown/Outside NYC (264, 265)",694524,0.7726
+M01,Money,fare_amount < 0,3579644,3.9821
+M02,Money,fare_amount = 0,38874,0.0432
+M03,Money,fare_amount > 500,1444,0.0016
+M04,Money,total_amount < 0,1583065,1.7611
+M05,Money,total_amount = 0,11863,0.0132
+M06,Money,total_amount != sum of components (|diff| > 0.01),28848843,32.0927
+M07,Money,tip_amount < 0,3024,0.0034
+M08,Money,tip_amount > 0 on cash payment,3359,0.0037
+M09,Money,tip_amount > fare_amount (fare > 0),104889,0.1167
+M10,Money,tolls_amount < 0,122166,0.1359
+M11,Money,Any surcharge/tax column < 0,1416777,1.5761
+M12,Money,Airport_fee > 0 but pickup not at an airport zone,252040,0.2804
+M13,Money,cbd_congestion_fee > 0 before program start (2025-01-05),406,0.0005
+M14,Money,Positive fare with zero distance and zero duration,25230,0.0281

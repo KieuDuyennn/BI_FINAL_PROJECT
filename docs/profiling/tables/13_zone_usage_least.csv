@@ -1,0 +1,16 @@
+LocationID,Borough,Zone,pickups,dropoffs
+103,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,0
+104,Manhattan,Governor's Island/Ellis Island/Liberty Island,0,0
+110,Staten Island,Great Kills Park,1,4
+99,Staten Island,Freshkills Park,11,29
+105,Manhattan,Governor's Island/Ellis Island/Liberty Island,11,15
+5,Staten Island,Arden Heights,27,356
+199,Bronx,Rikers Island,35,3
+204,Staten Island,Rossville/Woodrow,47,420
+84,Staten Island,Eltingville/Annadale/Prince's Bay,51,756
+44,Staten Island,Charleston/Tottenville,63,475
+187,Staten Island,Port Richmond,111,721
+109,Staten Island,Great Kills,118,846
+2,Queens,Jamaica Bay,131,206
+176,Staten Island,Oakwood,142,684
+245,Staten Island,West Brighton,182,1065

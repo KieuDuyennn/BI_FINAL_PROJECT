@@ -1,0 +1,9 @@
+value,meaning,trips,pct
+1,Standard rate,68944012,76.6962
+,NULL,15703126,17.4688
+2,JFK,2704804,3.0089
+99,Null/unknown,1271371,1.4143
+5,Negotiated fare,770369,0.857
+3,Newark,280643,0.3122
+4,Nassau or Westchester,217870,0.2424
+6,Group ride,127,0.0001

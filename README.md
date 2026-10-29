@@ -34,6 +34,7 @@ See diagrams in: [`docs/diagrams/`](docs/diagrams/)
 - `.github/`: pull request template
 - `notebooks/`: Kaggle notebook exports (`.ipynb`)
 - `ingestion/`: ingestion/export/logging skeleton scripts
+- `profiling/`: raw data profiling script (`python profiling/profile_raw.py` -> `docs/profiling/`)
 - `dbt_project/`: dbt models, tests, macros, seeds, profile template
 - `mage_pipeline/`: Mage pipeline documentation/skeleton
 - `docs/diagrams/`: architecture and design diagrams

@@ -1,0 +1,7 @@
+check,result
+Row count,265
+LocationID unique,True
+LocationID range,1..265
+Missing IDs in range,none
+Duplicate Zone names,"Corona, Governor's Island/Ellis Island/Liberty Island"
+Rows with Borough Unknown/N/A/empty,"264='Unknown'/'N/A', 265='N/A'/'Outside of NYC'"

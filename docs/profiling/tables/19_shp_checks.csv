@@ -1,0 +1,13 @@
+check,result
+Feature count,263
+CRS,NAD83 / New York Long Island (ftUS)
+Geometry types,"MultiPolygon, Polygon"
+Invalid geometries,0
+Empty geometries,0
+Distinct LocationID,263
+Duplicated LocationID (multiple polygons),none
+OBJECTID != LocationID,0
+IDs in lookup but not in shapefile,"[264, 265]"
+IDs in shapefile but not in lookup,none
+Zone names differing from lookup,none
+Total bounds (CRS units),"913,175, 120,122, 1,067,383, 272,844"

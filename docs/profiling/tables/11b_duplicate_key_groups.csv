@@ -1,0 +1,7 @@
+rows_per_key,has_negative_twin,nets_to_zero,key_groups
+2,True,True,1245402
+2,False,False,16076
+2,True,False,10927
+3,True,False,22
+4,True,True,1
+3,False,False,1
