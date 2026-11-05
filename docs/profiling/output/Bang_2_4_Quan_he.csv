@@ -1,0 +1,8 @@
+﻿quan_he,khoa_noi,kieu_quan_he,n_unmatched_rows,n_unmatched_values,n_child_null,n_distinct_child_values,n_parent_rows,parent_values_unused,max_rows_per_parent
+trip.PULocationID → taxi_zone_lookup,PULocationID = LocationID,n – 1,0,0,0,263.0,265,"103, 104","132: 4,052,450"
+trip.DOLocationID → taxi_zone_lookup,DOLocationID = LocationID,n – 1,0,0,0,263.0,265,"103, 104","236: 3,732,380"
+trip.VendorID → vendor_code (seed TLC),VendorID = vendor_code,n – 1,0,0,0,4.0,4,,"2: 70,027,349"
+trip.RatecodeID → rate_code (seed TLC),RatecodeID = rate_code,n – 1,0,0,15703126,7.0,7,,"1: 68,944,012"
+trip.payment_type → payment_type_code (seed TLC),payment_type = payment_type_code,n – 1,0,0,0,6.0,7,6,"1: 61,506,159"
+taxi_zone_lookup ↔ taxi_zones.shp,LocationID = LocationID,1 – 0..1,2,2,0,263.0,265,"chỉ có ở lookup: [264, 265]; chỉ có ở shapefile: []",0 LocationID khác tên/borough; OBJECTID ≠ LocationID: 0
+trip (PU/DO) → zone có polygon,PU/DOLocationID ∈ shapefile,n – 0..1,797317,2,0,,263,"PU ∈ (264, 265): 249,244; DO ∈ (264, 265): 694,524",không vẽ được trên bản đồ

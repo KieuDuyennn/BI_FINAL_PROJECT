@@ -1,0 +1,5 @@
+﻿passenger_count_null,RatecodeID_null,store_and_fwd_flag_null,congestion_surcharge_null,Airport_fee_null,cbd_congestion_fee_null,n_rows,pct_rows,payment_types,vendors,first_month,last_month
+0,0,0,0,0,0,37110708,41.28,"1,2,3,4,5","1,2,7",2025-01,2025-12
+0,0,0,0,0,1,37078488,41.25,"1,2,3,4,5","1,2,7",2024-01,2024-12
+1,1,1,1,1,0,11611894,12.92,0,"1,2,6",2025-01,2025-12
+1,1,1,1,1,1,4091232,4.55,0,"1,2,6",2024-01,2024-12

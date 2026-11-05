@@ -1,0 +1,4 @@
+﻿bang,dinh_dang,moi_dong_la,so_dong,so_cot,khoa_du_kien,khoa_duy_nhat,pham_vi_thoi_gian,dung_luong_mb
+yellow_tripdata (24 file parquet),"Parquet, 1 file/tháng",1 bản ghi chuyến đi do thiết bị đồng hồ (TPEP) gửi lên; có cả dòng điều chỉnh/hoàn tiền,89892322,19–20,"Không có cột ID; khóa tự nhiên VendorID, tpep_pickup_datetime, tpep_dropoff_datetime, PULocationID, DOLocationID","Không (2,544,883 dòng thuộc nhóm trùng khóa)","2002-12-31 16:46:07 → 2026-06-26 23:53:12 (tpep_pickup_datetime); trong kỳ 2024–2025: 89,892,263 dòng",1523.0
+taxi_zone_lookup.csv,"CSV có dấu nháy, CRLF, BOM=False",1 taxi zone của TLC,265,4,LocationID,Có,Không có,0.012
+taxi_zones.shp (+.dbf/.shx/.prj/.cpg),"ESRI Shapefile, CRS 2263",1 polygon/multipolygon ranh giới của 1 zone,263,7,LocationID,Có,Không có,1.65

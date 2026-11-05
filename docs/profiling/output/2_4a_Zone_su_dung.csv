@@ -1,0 +1,266 @@
+﻿LocationID,Borough,Zone,service_zone,n_pickup,n_dropoff,in_shapefile
+132,Queens,JFK Airport,Airports,4052450,934200,True
+237,Manhattan,Upper East Side South,Yellow Zone,4041001,3651324,True
+161,Manhattan,Midtown Center,Yellow Zone,4004361,3266898,True
+236,Manhattan,Upper East Side North,Yellow Zone,3604703,3732380,True
+162,Manhattan,Midtown East,Yellow Zone,2927023,2475621,True
+230,Manhattan,Times Sq/Theatre District,Yellow Zone,2907563,2762498,True
+186,Manhattan,Penn Station/Madison Sq West,Yellow Zone,2905322,1973042,True
+142,Manhattan,Lincoln Square East,Yellow Zone,2702304,2370262,True
+138,Queens,LaGuardia Airport,Airports,2586847,962887,True
+170,Manhattan,Murray Hill,Yellow Zone,2470971,2560232,True
+163,Manhattan,Midtown North,Yellow Zone,2408425,2148829,True
+234,Manhattan,Union Sq,Yellow Zone,2399081,2123667,True
+68,Manhattan,East Chelsea,Yellow Zone,2365514,2322131,True
+239,Manhattan,Upper West Side South,Yellow Zone,2362687,2348330,True
+48,Manhattan,Clinton East,Yellow Zone,2193925,2136493,True
+79,Manhattan,East Village,Yellow Zone,2171725,1918006,True
+249,Manhattan,West Village,Yellow Zone,2011427,1576125,True
+164,Manhattan,Midtown South,Yellow Zone,1975633,1902260,True
+141,Manhattan,Lenox Hill West,Yellow Zone,1958756,2219499,True
+107,Manhattan,Gramercy,Yellow Zone,1745667,1689172,True
+140,Manhattan,Lenox Hill East,Yellow Zone,1723917,1748547,True
+238,Manhattan,Upper West Side North,Yellow Zone,1662613,1863758,True
+263,Manhattan,Yorkville West,Yellow Zone,1624398,1761309,True
+246,Manhattan,West Chelsea/Hudson Yards,Yellow Zone,1605087,1772123,True
+229,Manhattan,Sutton Place/Turtle Bay North,Yellow Zone,1473619,1765920,True
+90,Manhattan,Flatiron,Yellow Zone,1389674,1289407,True
+100,Manhattan,Garment District,Yellow Zone,1307749,1148060,True
+114,Manhattan,Greenwich Village South,Yellow Zone,1305924,930718,True
+43,Manhattan,Central Park,Yellow Zone,1287625,935324,True
+113,Manhattan,Greenwich Village North,Yellow Zone,1263959,1137200,True
+231,Manhattan,TriBeCa/Civic Center,Yellow Zone,1238911,1461765,True
+262,Manhattan,Yorkville East,Yellow Zone,1203863,1290594,True
+148,Manhattan,Lower East Side,Yellow Zone,1054105,1037690,True
+233,Manhattan,UN/Turtle Bay South,Yellow Zone,1001113,1299954,True
+143,Manhattan,Lincoln Square West,Yellow Zone,1000297,1265767,True
+137,Manhattan,Kips Bay,Yellow Zone,972609,1132669,True
+144,Manhattan,Little Italy/NoLiTa,Yellow Zone,971619,904878,True
+158,Manhattan,Meatpacking/West Village West,Yellow Zone,911452,931118,True
+211,Manhattan,SoHo,Yellow Zone,757919,793841,True
+151,Manhattan,Manhattan Valley,Yellow Zone,703011,760607,True
+75,Manhattan,East Harlem South,Boro Zone,622896,1030507,True
+50,Manhattan,Clinton West,Yellow Zone,586752,940047,True
+87,Manhattan,Financial District North,Yellow Zone,579476,801673,True
+13,Manhattan,Battery Park City,Yellow Zone,564166,673900,True
+166,Manhattan,Morningside Heights,Boro Zone,481908,652250,True
+261,Manhattan,World Trade Center,Yellow Zone,470114,469079,True
+125,Manhattan,Hudson Sq,Yellow Zone,454908,480106,True
+41,Manhattan,Central Harlem,Boro Zone,334082,561301,True
+88,Manhattan,Financial District South,Yellow Zone,300038,387500,True
+74,Manhattan,East Harlem North,Boro Zone,298590,641170,True
+70,Queens,East Elmhurst,Boro Zone,295883,51441,True
+24,Manhattan,Bloomingdale,Yellow Zone,240537,287729,True
+4,Manhattan,Alphabet City,Yellow Zone,229256,392607,True
+42,Manhattan,Central Harlem North,Boro Zone,206670,423361,True
+264,Unknown,N/A,N/A,203073,291548,False
+209,Manhattan,Seaport,Yellow Zone,199489,266350,True
+232,Manhattan,Two Bridges/Seward Park,Yellow Zone,196422,463967,True
+45,Manhattan,Chinatown,Yellow Zone,172673,273896,True
+224,Manhattan,Stuy Town/Peter Cooper Village,Yellow Zone,168953,360551,True
+145,Queens,Long Island City/Hunters Point,Boro Zone,150439,250569,True
+244,Manhattan,Washington Heights South,Boro Zone,137662,363497,True
+255,Brooklyn,Williamsburg (North Side),Boro Zone,134580,241668,True
+116,Manhattan,Hamilton Heights,Boro Zone,132299,255235,True
+226,Queens,Sunnyside,Boro Zone,127780,158410,True
+7,Queens,Astoria,Boro Zone,126842,238676,True
+61,Brooklyn,Crown Heights North,Boro Zone,111922,192449,True
+256,Brooklyn,Williamsburg (South Side),Boro Zone,100468,208276,True
+65,Brooklyn,Downtown Brooklyn/MetroTech,Boro Zone,98039,143742,True
+33,Brooklyn,Brooklyn Heights,Boro Zone,94350,230059,True
+152,Manhattan,Manhattanville,Boro Zone,93719,146168,True
+97,Brooklyn,Fort Greene,Boro Zone,90108,135764,True
+112,Brooklyn,Greenpoint,Boro Zone,86793,227142,True
+37,Brooklyn,Bushwick South,Boro Zone,84215,149580,True
+80,Brooklyn,East Williamsburg,Boro Zone,84189,138241,True
+66,Brooklyn,DUMBO/Vinegar Hill,Boro Zone,83764,133117,True
+25,Brooklyn,Boerum Hill,Boro Zone,81165,160401,True
+181,Brooklyn,Park Slope,Boro Zone,79501,245662,True
+76,Brooklyn,East New York,Boro Zone,76959,103461,True
+129,Queens,Jackson Heights,Boro Zone,73472,132035,True
+146,Queens,Long Island City/Queens Plaza,Boro Zone,68502,77753,True
+130,Queens,Jamaica,Boro Zone,68025,87695,True
+188,Brooklyn,Prospect-Lefferts Gardens,Boro Zone,67483,107148,True
+225,Brooklyn,Stuyvesant Heights,Boro Zone,65698,120199,True
+89,Brooklyn,Flatbush/Ditmas Park,Boro Zone,63021,110761,True
+17,Brooklyn,Bedford,Boro Zone,62404,123959,True
+193,Queens,Queensbridge/Ravenswood,Boro Zone,58932,73188,True
+216,Queens,South Ozone Park,Boro Zone,58247,117677,True
+243,Manhattan,Washington Heights North,Boro Zone,56982,224025,True
+49,Brooklyn,Clinton Hill,Boro Zone,56307,138315,True
+36,Brooklyn,Bushwick North,Boro Zone,53410,93122,True
+39,Brooklyn,Canarsie,Boro Zone,53227,71692,True
+260,Queens,Woodside,Boro Zone,49418,75287,True
+93,Queens,Flushing Meadows-Corona Park,Boro Zone,48001,67293,True
+179,Queens,Old Astoria,Boro Zone,46886,89475,True
+168,Bronx,Mott Haven/Port Morris,Boro Zone,46835,65876,True
+265,N/A,Outside of NYC,N/A,46171,402976,False
+197,Queens,Richmond Hill,Boro Zone,46120,57690,True
+82,Queens,Elmhurst,Boro Zone,45188,82989,True
+35,Brooklyn,Brownsville,Boro Zone,43134,50950,True
+223,Queens,Steinway,Boro Zone,43026,122243,True
+95,Queens,Forest Hills,Boro Zone,42078,127192,True
+72,Brooklyn,East Flatbush/Remsen Village,Boro Zone,41146,47173,True
+10,Queens,Baisley Park,Boro Zone,39717,92710,True
+177,Brooklyn,Ocean Hill,Boro Zone,39186,47545,True
+91,Brooklyn,Flatlands,Boro Zone,36594,46347,True
+71,Brooklyn,East Flatbush/Farragut,Boro Zone,35933,43986,True
+12,Manhattan,Battery Park,Yellow Zone,34757,52640,True
+62,Brooklyn,Crown Heights South,Boro Zone,33183,56478,True
+228,Brooklyn,Sunset Park West,Boro Zone,31170,64448,True
+189,Brooklyn,Prospect Heights,Boro Zone,30635,86539,True
+157,Queens,Maspeth,Boro Zone,29682,47225,True
+247,Bronx,West Concourse,Boro Zone,29418,42231,True
+198,Queens,Ridgewood,Boro Zone,29279,76358,True
+195,Brooklyn,Red Hook,Boro Zone,29149,46064,True
+14,Brooklyn,Bay Ridge,Boro Zone,28134,77788,True
+52,Brooklyn,Cobble Hill,Boro Zone,27571,58736,True
+215,Queens,South Jamaica,Boro Zone,27337,38017,True
+40,Brooklyn,Carroll Gardens,Boro Zone,26445,77336,True
+85,Brooklyn,Erasmus,Boro Zone,25669,34340,True
+69,Bronx,East Concourse/Concourse Village,Boro Zone,25090,41253,True
+127,Manhattan,Inwood,Boro Zone,24771,99703,True
+159,Bronx,Melrose South,Boro Zone,22622,31771,True
+213,Bronx,Soundview/Castle Hill,Boro Zone,21299,28043,True
+205,Queens,Saint Albans,Boro Zone,21056,43603,True
+28,Queens,Briarwood/Jamaica Hills,Boro Zone,20583,43293,True
+55,Brooklyn,Coney Island,Boro Zone,20410,32877,True
+92,Queens,Flushing,Boro Zone,20244,74989,True
+63,Brooklyn,Cypress Hills,Boro Zone,20000,31935,True
+134,Queens,Kew Gardens,Boro Zone,19798,37576,True
+51,Bronx,Co-Op City,Boro Zone,19764,26952,True
+77,Brooklyn,East New York/Pennsylvania Avenue,Boro Zone,19644,26533,True
+219,Queens,Springfield Gardens South,Boro Zone,19477,44148,True
+196,Queens,Rego Park,Boro Zone,18729,40286,True
+56,Queens,Corona,Boro Zone,18470,42802,True
+258,Queens,Woodhaven,Boro Zone,18409,35286,True
+106,Brooklyn,Gowanus,Boro Zone,18206,37063,True
+254,Bronx,Williamsbridge/Olinville,Boro Zone,17987,25352,True
+83,Queens,Elmhurst/Maspeth,Boro Zone,17492,29453,True
+26,Brooklyn,Borough Park,Boro Zone,17300,37708,True
+235,Bronx,University Heights/Morris Heights,Boro Zone,17100,24382,True
+182,Bronx,Parkchester,Boro Zone,16868,19608,True
+167,Bronx,Morrisania/Melrose,Boro Zone,16828,21617,True
+191,Queens,Queens Village,Boro Zone,16421,31566,True
+165,Brooklyn,Midwood,Boro Zone,16299,32362,True
+155,Brooklyn,Marine Park/Mill Basin,Boro Zone,16162,34307,True
+169,Bronx,Mount Hope,Boro Zone,16022,24123,True
+222,Brooklyn,Starrett City,Boro Zone,15926,19444,True
+218,Queens,Springfield Gardens North,Boro Zone,15783,31941,True
+133,Brooklyn,Kensington,Boro Zone,15283,30360,True
+78,Bronx,East Tremont,Boro Zone,14740,21343,True
+210,Brooklyn,Sheepshead Bay,Boro Zone,14566,25391,True
+119,Bronx,Highbridge,Boro Zone,14477,24737,True
+86,Queens,Far Rockaway,Boro Zone,13250,24807,True
+18,Bronx,Bedford Park,Boro Zone,13219,22519,True
+117,Queens,Hammels/Arverne,Boro Zone,12831,17146,True
+212,Bronx,Soundview/Bruckner,Boro Zone,12346,14077,True
+22,Brooklyn,Bensonhurst West,Boro Zone,12296,25592,True
+160,Queens,Middle Village,Boro Zone,12223,34751,True
+1,EWR,Newark Airport,EWR,11996,206095,True
+217,Brooklyn,South Williamsburg,Boro Zone,11805,34356,True
+47,Bronx,Claremont/Bathgate,Boro Zone,11687,16349,True
+241,Bronx,Van Cortlandt Village,Boro Zone,11675,21888,True
+220,Bronx,Spuyten Duyvil/Kingsbridge,Boro Zone,11456,38342,True
+34,Brooklyn,Brooklyn Navy Yard,Boro Zone,11451,14639,True
+242,Bronx,Van Nest/Morris Park,Boro Zone,11429,22966,True
+123,Brooklyn,Homecrest,Boro Zone,11388,22738,True
+248,Bronx,West Farms/Bronx River,Boro Zone,11249,13177,True
+121,Queens,Hillcrest/Pomonok,Boro Zone,11207,26506,True
+250,Bronx,Westchester Village/Unionport,Boro Zone,11179,15210,True
+126,Bronx,Hunts Point,Boro Zone,11071,16760,True
+131,Queens,Jamaica Estates,Boro Zone,10998,23938,True
+227,Brooklyn,Sunset Park East,Boro Zone,10868,26469,True
+173,Queens,North Corona,Boro Zone,10374,23781,True
+174,Bronx,Norwood,Boro Zone,10349,22487,True
+102,Queens,Glendale,Boro Zone,10041,24511,True
+259,Bronx,Woodlawn/Wakefield,Boro Zone,9984,16123,True
+208,Bronx,Schuylerville/Edgewater Park,Boro Zone,9746,21013,True
+124,Queens,Howard Beach,Boro Zone,9725,26914,True
+81,Bronx,Eastchester,Boro Zone,9677,13578,True
+29,Brooklyn,Brighton Beach,Boro Zone,9536,19195,True
+257,Brooklyn,Windsor Terrace,Boro Zone,9507,40963,True
+135,Queens,Kew Gardens Hills,Boro Zone,9325,28610,True
+60,Bronx,Crotona Park East,Boro Zone,9251,11431,True
+180,Queens,Ozone Park,Boro Zone,8993,18321,True
+136,Bronx,Kingsbridge Heights,Boro Zone,8983,15762,True
+202,Manhattan,Roosevelt Island,Boro Zone,8828,45503,True
+149,Brooklyn,Madison,Boro Zone,8756,19038,True
+147,Bronx,Longwood,Boro Zone,8733,12406,True
+21,Brooklyn,Bensonhurst East,Boro Zone,8496,18165,True
+139,Queens,Laurelton,Boro Zone,8143,22610,True
+32,Bronx,Bronxdale,Boro Zone,8120,13284,True
+203,Queens,Rosedale,Boro Zone,8040,22736,True
+20,Bronx,Belmont,Boro Zone,7672,17437,True
+108,Brooklyn,Gravesend,Boro Zone,7572,12275,True
+185,Bronx,Pelham Parkway,Boro Zone,7374,17797,True
+67,Brooklyn,Dyker Heights,Boro Zone,7353,18351,True
+54,Brooklyn,Columbia Street,Boro Zone,7086,20658,True
+200,Bronx,Riverdale/North Riverdale/Fieldston,Boro Zone,6938,31396,True
+38,Queens,Cambria Heights,Boro Zone,6879,21784,True
+19,Queens,Bellerose,Boro Zone,6847,15530,True
+122,Queens,Hollis,Boro Zone,6744,11526,True
+94,Bronx,Fordham South,Boro Zone,6535,10435,True
+207,Queens,Saint Michaels Cemetery/Woodside,Boro Zone,6511,5508,True
+3,Bronx,Allerton/Pelham Gardens,Boro Zone,6378,11588,True
+190,Brooklyn,Prospect Park,Boro Zone,5907,13402,True
+53,Queens,College Point,Boro Zone,5522,18996,True
+171,Queens,Murray Hill-Queens,Boro Zone,5335,19339,True
+150,Brooklyn,Manhattan Beach,Boro Zone,5237,11141,True
+252,Queens,Whitestone,Boro Zone,4884,20278,True
+16,Queens,Bayside,Boro Zone,4870,20348,True
+11,Brooklyn,Bath Beach,Boro Zone,4788,9747,True
+101,Queens,Glen Oaks,Boro Zone,4531,11229,True
+192,Queens,Queensboro Hill,Boro Zone,4488,12270,True
+194,Manhattan,Randalls Island,Yellow Zone,4441,13253,True
+201,Queens,Rockaway Park,Boro Zone,4373,11636,True
+178,Brooklyn,Ocean Parkway South,Boro Zone,4157,9890,True
+98,Queens,Fresh Meadows,Boro Zone,4149,15989,True
+183,Bronx,Pelham Bay,Boro Zone,3823,7272,True
+175,Queens,Oakland Gardens,Boro Zone,3552,11877,True
+153,Manhattan,Marble Hill,Boro Zone,2997,5134,True
+9,Queens,Auburndale,Boro Zone,2868,10970,True
+64,Queens,Douglaston,Boro Zone,2758,12657,True
+15,Queens,Bay Terrace/Fort Totten,Boro Zone,2614,11793,True
+73,Queens,East Flushing,Boro Zone,2440,9086,True
+128,Manhattan,Inwood Hill Park,Boro Zone,2059,10670,True
+6,Staten Island,Arrochar/Fort Wadsworth,Boro Zone,1745,2620,True
+240,Bronx,Van Cortlandt Park,Boro Zone,1724,4387,True
+31,Bronx,Bronx Park,Boro Zone,1638,6497,True
+154,Brooklyn,Marine Park/Floyd Bennett Field,Boro Zone,1527,9618,True
+57,Queens,Corona,Boro Zone,1384,2553,True
+96,Queens,Forest Park/Highland Park,Boro Zone,1299,3933,True
+120,Manhattan,Highbridge Park,Boro Zone,1261,6350,True
+46,Bronx,City Island,Boro Zone,1155,3048,True
+221,Staten Island,Stapleton,Boro Zone,896,2286,True
+8,Queens,Astoria Park,Boro Zone,860,1574,True
+184,Bronx,Pelham Bay Park,Boro Zone,810,1677,True
+58,Bronx,Country Club,Boro Zone,785,2885,True
+253,Queens,Willets Point,Boro Zone,741,1656,True
+214,Staten Island,South Beach/Dongan Hills,Boro Zone,625,2175,True
+27,Queens,Breezy Point/Fort Tilden/Riis Beach,Boro Zone,587,2175,True
+23,Staten Island,Bloomfield/Emerson Hill,Boro Zone,564,2092,True
+115,Staten Island,Grymes Hill/Clifton,Boro Zone,490,1242,True
+118,Staten Island,Heartland Village/Todt Hill,Boro Zone,404,1979,True
+59,Bronx,Crotona Park,Boro Zone,388,911,True
+30,Queens,Broad Channel,Boro Zone,340,1075,True
+172,Staten Island,New Dorp/Midland Beach,Boro Zone,331,1327,True
+251,Staten Island,Westerleigh,Boro Zone,289,1256,True
+111,Brooklyn,Green-Wood Cemetery,Boro Zone,244,848,True
+206,Staten Island,Saint George/New Brighton,Boro Zone,243,2014,True
+156,Staten Island,Mariners Harbor,Boro Zone,222,1033,True
+245,Staten Island,West Brighton,Boro Zone,182,1065,True
+176,Staten Island,Oakwood,Boro Zone,142,684,True
+2,Queens,Jamaica Bay,Boro Zone,131,206,True
+109,Staten Island,Great Kills,Boro Zone,118,846,True
+187,Staten Island,Port Richmond,Boro Zone,111,721,True
+44,Staten Island,Charleston/Tottenville,Boro Zone,63,475,True
+84,Staten Island,Eltingville/Annadale/Prince's Bay,Boro Zone,51,756,True
+204,Staten Island,Rossville/Woodrow,Boro Zone,47,420,True
+199,Bronx,Rikers Island,Boro Zone,35,3,True
+5,Staten Island,Arden Heights,Boro Zone,27,356,True
+105,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone,11,15,True
+99,Staten Island,Freshkills Park,Boro Zone,11,29,True
+110,Staten Island,Great Kills Park,Boro Zone,1,4,True
+104,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone,0,0,True
+103,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone,0,0,True

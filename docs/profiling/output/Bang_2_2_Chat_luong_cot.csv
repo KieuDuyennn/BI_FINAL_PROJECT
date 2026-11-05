@@ -1,0 +1,32 @@
+﻿bang,cot,kieu,pct_null,n_distinct,mien_gia_tri
+yellow_tripdata,VendorID,INTEGER,0.0,4,2 (77.9%); 1 (21.5%); 7 (0.6%)
+yellow_tripdata,tpep_pickup_datetime,TIMESTAMP,0.0,41681278,2002-12-31 16:46:07 → 2026-06-26 23:53:12
+yellow_tripdata,tpep_dropoff_datetime,TIMESTAMP,0.0,41646644,2002-12-31 17:24:07 → 2026-06-27 20:59:10
+yellow_tripdata,passenger_count,BIGINT,17.47,10,0 – 9 (trung vị 1.00)
+yellow_tripdata,trip_distance,DOUBLE,0.0,12470,"0.00 – 398,608.62 (trung vị 1.80)"
+yellow_tripdata,RatecodeID,BIGINT,17.47,7,1 (76.7%); NULL (17.5%); 2 (3.0%)
+yellow_tripdata,store_and_fwd_flag,VARCHAR,17.47,2,N (82.2%); NULL (17.5%); Y (0.3%)
+yellow_tripdata,PULocationID,INTEGER,0.0,263,132 (4.5%); 237 (4.5%); 161 (4.5%)
+yellow_tripdata,DOLocationID,INTEGER,0.0,263,236 (4.2%); 237 (4.1%); 161 (3.6%)
+yellow_tripdata,payment_type,BIGINT,0.0,6,1 (68.4%); 0 (17.5%); 2 (11.3%)
+yellow_tripdata,fare_amount,DOUBLE,0.0,23925,"-2,261.20 – 863,372.12 (trung vị 13.50)"
+yellow_tripdata,extra,DOUBLE,0.0,219,-17.39 – 133.60 (trung vị 0.00)
+yellow_tripdata,mta_tax,DOUBLE,0.0,94,"-21.74 – 5,243.38 (trung vị 0.50)"
+yellow_tripdata,tip_amount,DOUBLE,0.0,9459,-333.33 – 999.99 (trung vị 2.38)
+yellow_tripdata,tolls_amount,DOUBLE,0.0,5737,"-148.17 – 1,702.88 (trung vị 0.00)"
+yellow_tripdata,improvement_surcharge,DOUBLE,0.0,9,-1.00 – 2.50 (trung vị 1.00)
+yellow_tripdata,total_amount,DOUBLE,0.0,54109,"-2,265.45 – 863,380.37 (trung vị 21.06)"
+yellow_tripdata,congestion_surcharge,DOUBLE,17.47,8,-2.50 – 2.52 (trung vị 2.50)
+yellow_tripdata,Airport_fee,DOUBLE,17.47,8,-1.75 – 6.75 (trung vị 0.00)
+yellow_tripdata,cbd_congestion_fee,DOUBLE,45.8,7,-0.75 – 1.75 (trung vị 0.75)
+taxi_zone_lookup,LocationID,int32,0.0,265,1 (1); 183 (1); 169 (1)
+taxi_zone_lookup,Borough,object,0.0,8,Queens (69); Manhattan (69); Brooklyn (61)
+taxi_zone_lookup,Zone,object,0.0,262,Governor's Island/Ellis Island/Liberty Island (3); Corona (2); Newark Airport (1)
+taxi_zone_lookup,service_zone,object,0.0,5,Boro Zone (205); Yellow Zone (55); Airports (2)
+taxi_zones.shp,OBJECTID,int32,0.0,263,1 (1); 166 (1); 168 (1)
+taxi_zones.shp,Shape_Leng,float64,0.0,263,0.116357453189 (1); 0.0688237542871 (1); 0.114517434155 (1)
+taxi_zones.shp,Shape_Area,float64,0.0,263,0.0007823067885 (1); 0.000255276270405 (1); 0.000547058100444 (1)
+taxi_zones.shp,zone,object,0.0,260,Governor's Island/Ellis Island/Liberty Island (3); Corona (2); Newark Airport (1)
+taxi_zones.shp,LocationID,int32,0.0,263,1 (1); 166 (1); 168 (1)
+taxi_zones.shp,borough,object,0.0,6,Queens (69); Manhattan (69); Brooklyn (61)
+taxi_zones.shp,geometry,"MultiPolygon,Polygon",0.0,263,invalid=0; empty=0

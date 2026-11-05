@@ -1,0 +1,10 @@
+﻿metric,value
+calendar_days,731
+days_with_zero_trips,0
+median_trips_per_day,122921.0
+min_trips_per_day,54764
+min_day,2024-12-25 00:00:00
+max_trips_per_day,183035
+max_day,2025-11-01 00:00:00
+days_below_50pct_median,1
+days_below_50pct_median_list,"2024-12-25 00:00:00 (54,764)"

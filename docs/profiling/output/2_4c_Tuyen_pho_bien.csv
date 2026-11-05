@@ -1,0 +1,21 @@
+﻿rank,PULocationID,pickup_zone,DOLocationID,dropoff_zone,n_trips,pct_trips,n_distinct_routes_total,n_same_zone_trips_total
+1,237,Upper East Side South,236,Upper East Side North,582155,0.648,57072,4397074
+2,236,Upper East Side North,237,Upper East Side South,500894,0.557,57072,4397074
+3,237,Upper East Side South,237,Upper East Side South,412662,0.459,57072,4397074
+4,236,Upper East Side North,236,Upper East Side North,389162,0.433,57072,4397074
+5,161,Midtown Center,237,Upper East Side South,274950,0.306,57072,4397074
+6,237,Upper East Side South,161,Midtown Center,250864,0.279,57072,4397074
+7,161,Midtown Center,236,Upper East Side North,225171,0.25,57072,4397074
+8,237,Upper East Side South,162,Midtown East,214794,0.239,57072,4397074
+9,132,JFK Airport,132,JFK Airport,211049,0.235,57072,4397074
+10,142,Lincoln Square East,239,Upper West Side South,210643,0.234,57072,4397074
+11,239,Upper West Side South,142,Lincoln Square East,208017,0.231,57072,4397074
+12,239,Upper West Side South,238,Upper West Side North,202832,0.226,57072,4397074
+13,236,Upper East Side North,161,Midtown Center,193112,0.215,57072,4397074
+14,141,Lenox Hill West,236,Upper East Side North,188812,0.21,57072,4397074
+15,186,Penn Station/Madison Sq West,230,Times Sq/Theatre District,182851,0.203,57072,4397074
+16,132,JFK Airport,230,Times Sq/Theatre District,181828,0.202,57072,4397074
+17,132,JFK Airport,265,Outside of NYC,180004,0.2,57072,4397074
+18,236,Upper East Side North,141,Lenox Hill West,175128,0.195,57072,4397074
+19,162,Midtown East,237,Upper East Side South,174926,0.195,57072,4397074
+20,161,Midtown Center,161,Midtown Center,174695,0.194,57072,4397074
